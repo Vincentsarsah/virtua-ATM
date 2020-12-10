@@ -6,8 +6,7 @@ const button = document.querySelector('button')
 
 function check_name() {  
     var checkName = prompt("Enter Your Name")
-    if (name.includes(checkName)) {
-	alert(myFunction())    
+    if (name.includes(checkName)) {   
         alert(check_mail())
     } else {
         alert("name is nvalide")
@@ -36,11 +35,14 @@ function check_phone_number() {
     }
 }
 
+
+/*
 document.getElementById("btnID").disabled = true;
 
 function myFunction() {
     window.open("https://www.w3schools.com");
   }
+  */
 	
 
 
