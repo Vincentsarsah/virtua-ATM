@@ -7,7 +7,7 @@ const button = document.querySelector('button')
 function check_name() {  
     var checkName = prompt("Enter Your Name")
     if (name.includes(checkName)) {
-        button.disabled = true
+	alert(myFunction())    
         alert(check_mail())
     } else {
         alert("name is nvalide")
