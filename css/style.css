@@ -1,0 +1,33 @@
+
+body {
+    background: darkslategray;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#atm {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.button{
+	font-size: 1.7rem;
+	color: white;
+	background-color: brown;
+	font-family:sans-serif;
+	padding: 6px;
+	margin: 3rem;
+}
+
+#balance{
+	color: white;
+	font-size: 4rem;
+}
+
+#dis{
+	color: rgb(236, 195, 11);
+	font-size: 4rem;
+
+}
