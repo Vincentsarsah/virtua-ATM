@@ -1,9 +1,9 @@
-
 body {
     background: darkslategray;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    s
 }
 
 #atm {
@@ -12,22 +12,30 @@ body {
     text-align: center;
 }
 
-.button{
-	font-size: 1.7rem;
-	color: white;
-	background-color: brown;
-	font-family:sans-serif;
-	padding: 6px;
-	margin: 3rem;
+.button {
+    font-size: 1.7rem;
+    color: white;
+    background-color: brown;
+    font-family: sans-serif;
+    padding: 6px;
+    margin: 3rem;
 }
 
-#balance{
-	color: white;
-	font-size: 4rem;
+.button:hover {
+    color: red;
+    background-color: white;
 }
 
-#dis{
-	color: rgb(236, 195, 11);
-	font-size: 4rem;
+#balance {
+    color: white;
+    font-size: 4rem;
+}
 
+#dis {
+    color: rgb(13, 4, 34);
+    font-size: 4rem;
+}
+
+#txt {
+    font-size: 1.5rem;
 }
